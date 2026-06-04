@@ -11,7 +11,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("Internship_Selection_Dataset.csv")
+    return pd.read_csv("data/Internship_Selection_Dataset.csv")
 
 df = load_data()
 
